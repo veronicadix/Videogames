@@ -1,0 +1,10 @@
+.pos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  bottom: 50px;
+  transition: background-color 1s;
+  font-size: 10rem;
+  padding: 10px 16px;
+}

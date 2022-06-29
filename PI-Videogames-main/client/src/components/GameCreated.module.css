@@ -1,0 +1,190 @@
+.mainscreen {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #24222e;
+  background-image: url("../imagen/landingpageVG7.jpg");
+  background-repeat: no-repeat;
+  background-size:cover ;
+
+}
+
+.CreateRecipe {
+  width: 60rem;
+  margin: auto;
+  background: #675f8f86;
+  position: center;
+  align-self: center;
+  top: 50rem;
+  border-radius: 1.5rem;
+  box-shadow: 4px 3px 20px #3535358c;
+  display: flex;
+  flex-direction: row;
+}
+
+.rightside {
+  background-color: transparent;
+  width: 35rem;
+  border-bottom-right-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  padding: 1rem 2rem 3rem 3rem;
+}
+
+.leftside {
+  background: transparent;
+  width: 40rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.product {
+  background-image: url("../imagen/GamerBck.jpg");
+  background-position:50%;
+  background-size:contain;
+  width: 25em;
+  height: 25em;
+  border-radius: 50%;
+}
+
+.CreationForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0px;
+}
+.errors {
+  color: red;
+  font-size: 15px;
+}
+
+.btn {
+  background: linear-gradient(135deg, #070607 0%, #07060750 100%);
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  width: 100%;
+  letter-spacing: 0.11rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.dateC {
+  display: flex;
+  align-items: center;
+}
+.expcvv {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.6rem;
+}
+.expcvv_text {
+  display: flex;
+  align-items: center;
+}
+.expcvv_text2 {
+  padding: 0 1rem;
+}
+
+.date {
+  height: 2rem;
+}
+.score {
+  height: 1rem;
+}
+.divHome {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.botonDelete {
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+
+  cursor: pointer;
+  border: 1px solid #e78122;
+  box-shadow: rgb(77, 133, 236) 0 -1px 70px 1px,
+    inset rgb(233, 66, 122) 0 -1px 1px, rgb(226, 120, 33) 0 2px 12px;
+  transition: width 1s, box-shadow 1s;
+}
+.inputC {
+  color: #030303;
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1.5px solid #ccc;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  font-family: "Roboto", sans-serif;
+  color: #615a5a;
+  font-size: 1.1rem;
+  font-weight: 500;
+  outline: none;
+}
+div {
+  justify-content: center;
+}
+
+.dietC {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.diet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select {
+  height: 1.3rem;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: white;
+}
+
+.btnH {
+  margin: 2rem 0 0 2rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.btn1 {
+  color: black;
+  font-size: 1.3rem;
+  font-family: "Rubik";
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .CreateVideogame {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .leftside {
+    width: 100%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-radius: 0;
+  }
+
+  .rightside {
+    width: auto;
+    border-bottom-left-radius: 1.5rem;
+    padding: 0.5rem 3rem 3rem 2rem;
+    border-radius: 0;
+  }
+}

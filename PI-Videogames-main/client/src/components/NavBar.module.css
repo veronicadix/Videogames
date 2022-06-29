@@ -1,0 +1,48 @@
+.nav {
+  align-items: right;
+  display: flex;
+  justify-content: center;
+  background-image: url("../imagen/landingpageVG1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cnt {
+  display: flex;
+  text-align: center;
+}
+.cnt + .cnt {
+  margin-left: 20rem;
+}
+
+.selectCont {
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  height: 2rem;
+  width: 7rem;
+  font-size: 19px;
+  border-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 10rem;
+  background-color: rgba(12, 10, 10, 0.842);
+  font-family: "Rubik";
+  color: rgba(251, 245, 255, 0.925);
+  -webkit-appearance: none;
+}
+
+.selectCont:hover {
+  color: white;
+  background-color: rgb(202, 178, 178);
+}
+
+option {
+  font-size: 15px;
+  background-color: rgb(61, 61, 61);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

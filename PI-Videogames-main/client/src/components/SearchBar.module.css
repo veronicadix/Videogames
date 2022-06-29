@@ -1,0 +1,41 @@
+.searchbar {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: 20rem;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  color: #ffffff85;
+}
+
+.searchbarbtn {
+  height: 3rem;
+  width: 3rem;
+  justify-content: center;
+  align-items: right;
+  border: solid 2px transparent;
+  border-radius: 9999px;
+  font-size: 2rem;
+  display: flex;
+  background-color: transparent;
+  transition: background-color 0.25s;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.144);
+}
+
+.searchbarbtn:hover {
+  color: rgb(255, 255, 255);
+}

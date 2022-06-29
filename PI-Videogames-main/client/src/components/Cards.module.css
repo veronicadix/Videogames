@@ -1,0 +1,41 @@
+.bckCard{
+  background-image: url("../imagen/FondoVG3.jpg");
+  background-size:contain;
+  
+}
+
+.GameCard {
+  list-style: none;
+}
+.GameCard:hover {
+  opacity: 0.9;
+  border-color:#1a7798 ;
+}
+
+.Img {
+  width: 80%;
+  height: 30%;
+  margin-left: 8.5%;
+  margin-right: 1.5%;
+  margin-top: 10%;
+  border: 30%;
+  background-size: contain;
+  border-radius: 10px;
+  background-color: azure;
+  overflow: hidden;
+}
+.title {
+  text-align: center;
+  font-size: 05.rem;
+  font-family: "Rubik", sans-serif;
+  color: #7e7272;
+  margin: 0.5rem;
+}
+
+
+@media (max-width: 100px) {
+  .recipeImage {
+    width: 25%;
+    height: auto;
+  }
+}

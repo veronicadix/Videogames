@@ -1,0 +1,54 @@
+.bck {
+  
+  background-color: #0c0c0c;
+  backdrop-filter: blur(8px);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  
+}
+
+.gameGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 35px;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.btnhome {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.link {
+  font-size: 1rem;
+  font-family: "Rubik";
+  color: white;
+  text-decoration: none;
+}
+
+.btnreload {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.btn30 {
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  letter-spacing: 0.1em;
+  font-size: 15px;
+  border-style: groove;
+  border-color: whitesmoke;
+  background-color: black;
+  font-family: "Rubik";
+  color: white;
+  -webkit-appearance: none;
+}

@@ -1,0 +1,106 @@
+.landing {
+  color: white;
+  height: 100vh;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  background-image: url("../imagen/landingpageVG8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:inherit;
+}
+
+.circle {
+  position: relative;
+  top: 10%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0vh;
+  height: 80vh;
+  width: 160vh;
+  background-color: transparent;
+  backdrop-filter: blur(16px);
+  border-radius: 25px;
+  color: #e3eef5;
+  box-shadow: rgba(77, 101, 236, 0) 0 -1px 7px 1px,
+    inset rgba(149, 126, 226, 0) 0 -1px 15px, rgba(226, 120, 33, 0) 0 2px 12px;
+  overflow: hidden;
+}
+
+.bn30 {
+  bottom: 15px;
+  border: 15em;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  padding: 0.75em 2.5em;
+  border-radius: 25px;
+  background-color: rgb(74, 4, 102);
+  transition: box-shadow 0.25s;
+  color: rgba(245, 240, 240, 0.925);
+}
+
+.bn30 .text {
+  font-family: sans-serif;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bn30:after {
+  content: "";
+  border-radius: 30px;
+  position: relative;
+  margin: 4px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: rgb(9, 219, 226);
+}
+
+.bn30:hover {
+  background-image: linear-gradient(
+    -45deg,
+    rgb(237, 162, 247),
+    rgba(237, 162, 247, 0.37)
+  );
+  box-shadow: 0 12px 24px rgba(135, 11, 172, 0.705);
+}
+
+.bn30:hover .text {
+  background-image: linear-gradient(
+    -45deg,
+    rgb(122, 118, 118),
+    rgba(122, 118, 118, 0.548)
+  );
+}
+
+subtittle {
+  font-size: 20px;
+  position: relative;
+  top: 80px;
+}
+
+.note {
+  font-size: 15px;
+  position: relative;
+  bottom: 75px;
+}
+
+.subtittle,
+.note {
+  font-family: "Lucida Handwriting", cursive;
+  font-style: italic;
+}
+
+.tittle {
+  font-size: 80px;
+  font-family: "Abril Fatface", serif;
+}
+
